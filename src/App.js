@@ -183,19 +183,19 @@ const App = () => {
                 { label: 'Misc', icon: 'pi pi-fw pi-circle-off', to: '/misc' },
             ]
         },
-        {
-            label: 'UI Blocks',
-            items: [
-                { label: 'Free Blocks', icon: 'pi pi-fw pi-eye', to: '/blocks', badge: "NEW" },
-                { label: 'All Blocks', icon: 'pi pi-fw pi-globe', url: 'https://www.primefaces.org/primeblocks-react' }
-            ]
-        },
-        {
-            label: 'Icons',
-            items: [
-                { label: 'PrimeIcons', icon: 'pi pi-fw pi-prime', to: '/icons' }
-            ]
-        },
+        // {
+        //     label: 'UI Blocks',
+        //     items: [
+        //         { label: 'Free Blocks', icon: 'pi pi-fw pi-eye', to: '/blocks', badge: "NEW" },
+        //         { label: 'All Blocks', icon: 'pi pi-fw pi-globe', url: 'https://www.primefaces.org/primeblocks-react' }
+        //     ]
+        // },
+        // {
+        //     label: 'Icons',
+        //     items: [
+        //         { label: 'PrimeIcons', icon: 'pi pi-fw pi-prime', to: '/icons' }
+        //     ]
+        // },
         {
             label: 'Pages', icon: 'pi pi-fw pi-clone',
             items: [
@@ -204,58 +204,58 @@ const App = () => {
                 { label: 'Empty', icon: 'pi pi-fw pi-circle-off', to: '/empty' }
             ]
         },
-        {
-            label: 'Menu Hierarchy', icon: 'pi pi-fw pi-search',
-            items: [
-                {
-                    label: 'Submenu 1', icon: 'pi pi-fw pi-bookmark',
-                    items: [
-                        {
-                            label: 'Submenu 1.1', icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' },
-                            ]
-                        },
-                        {
-                            label: 'Submenu 1.2', icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 1.2.2', icon: 'pi pi-fw pi-bookmark' }
-                            ]
-                        },
-                    ]
-                },
-                {
-                    label: 'Submenu 2', icon: 'pi pi-fw pi-bookmark',
-                    items: [
-                        {
-                            label: 'Submenu 2.1', icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 2.1.3', icon: 'pi pi-fw pi-bookmark' },
-                            ]
-                        },
-                        {
-                            label: 'Submenu 2.2', icon: 'pi pi-fw pi-bookmark',
-                            items: [
-                                { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
-                                { label: 'Submenu 2.2.2', icon: 'pi pi-fw pi-bookmark' }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            label: 'Get Started',
-            items: [
-                { label: 'Documentation', icon: 'pi pi-fw pi-question', command: () => { window.location = "#/documentation" } },
-                { label: 'View Source', icon: 'pi pi-fw pi-search', command: () => { window.location = "https://github.com/primefaces/sakai-react" } }
-            ]
-        }
+        // {
+        //     label: 'Menu Hierarchy', icon: 'pi pi-fw pi-search',
+        //     items: [
+        //         {
+        //             label: 'Submenu 1', icon: 'pi pi-fw pi-bookmark',
+        //             items: [
+        //                 {
+        //                     label: 'Submenu 1.1', icon: 'pi pi-fw pi-bookmark',
+        //                     items: [
+        //                         { label: 'Submenu 1.1.1', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 1.1.2', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 1.1.3', icon: 'pi pi-fw pi-bookmark' },
+        //                     ]
+        //                 },
+        //                 {
+        //                     label: 'Submenu 1.2', icon: 'pi pi-fw pi-bookmark',
+        //                     items: [
+        //                         { label: 'Submenu 1.2.1', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 1.2.2', icon: 'pi pi-fw pi-bookmark' }
+        //                     ]
+        //                 },
+        //             ]
+        //         },
+        //         {
+        //             label: 'Submenu 2', icon: 'pi pi-fw pi-bookmark',
+        //             items: [
+        //                 {
+        //                     label: 'Submenu 2.1', icon: 'pi pi-fw pi-bookmark',
+        //                     items: [
+        //                         { label: 'Submenu 2.1.1', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 2.1.2', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 2.1.3', icon: 'pi pi-fw pi-bookmark' },
+        //                     ]
+        //                 },
+        //                 {
+        //                     label: 'Submenu 2.2', icon: 'pi pi-fw pi-bookmark',
+        //                     items: [
+        //                         { label: 'Submenu 2.2.1', icon: 'pi pi-fw pi-bookmark' },
+        //                         { label: 'Submenu 2.2.2', icon: 'pi pi-fw pi-bookmark' }
+        //                     ]
+        //                 }
+        //             ]
+        //         }
+        //     ]
+        // },
+        // {
+        //     label: 'Get Started',
+        //     items: [
+        //         { label: 'Documentation', icon: 'pi pi-fw pi-question', command: () => { window.location = "#/documentation" } },
+        //         { label: 'View Source', icon: 'pi pi-fw pi-search', command: () => { window.location = "https://github.com/primefaces/sakai-react" } }
+        //     ]
+        // }
     ];
 
     const addClass = (element, className) => {
